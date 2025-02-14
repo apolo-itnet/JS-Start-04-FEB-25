@@ -18,7 +18,7 @@ function evenNumberOnly(numbers){
 }
 
 const numbers = [5, 10, 15, 20, 25, 30];
-// const evens = evenNumberOnly(numbers);
+const evens = evenNumberOnly(numbers);
 // console.log('evens number of', evens);
 
 
