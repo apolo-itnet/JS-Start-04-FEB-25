@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More Events</title>
+</head>
+<body>
+  <button id="btn-mouse">Mickey mini mouse</button>
+  <br> <br> 
+  <input id="user-name" type="text" placeholder="input data">
+  <br> <br> 
+  <input id="user-email" type="text" placeholder="input data">
+  
+  <script>
+  document.getElementById('user-name').addEventListener('keydown', function(event){
+  console.log('typing', event)
+  })
+  </script>
+
+ <script src="js/more-events.js"></script>  
+</body>
+</html>
