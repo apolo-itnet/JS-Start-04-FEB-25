@@ -11,8 +11,13 @@ const products = [
 ];
 
 //10k theke 25k porjonto filter korbe and color filter
-const filteredProducts = products.filter((product) => product.price >= 10000 && product.price <= 30000 &&product.color === 'black');
-console.log(filteredProducts);
+// const filteredProducts = products.filter((product) => product.price >= 10000 && product.price <= 30000 &&product.color === 'black');
+// console.log(filteredProducts);
+
+
+//find the product
+const findProduct = products.find(product => product.color==="gold")
+console.log(findProduct)
 
 
 
